@@ -16,10 +16,14 @@ inside a private network while being monitored by an ELK server.
 * The ELK server logs and monitors the virtual machine for any changes 
 * Filebeat ships the logs to elasticsearch to be indexed to be visualized by kibana
 
+
+## Firewall Modifications 
+Port modification request depicted below
+
+[![](https://i.imgur.com/e7uTkvNm.jpg)](https://i.imgur.com/e7uTkvN.png)
+
 ## Access Policies
 
 Host uses SSH to gain access Jump server using public IPs. The Jump server accesses the Web server with internal IPs. Web server is set up to connect to ELK. Web server is configured on
 backend pool of public load balancer to interact with DVWA containerized instance. Filebeat installed on Web server pushes logs to Elk server where an ELK stack has been deployed to monitor web server. Access policies ballows SSH service from host to Jumpbox, 
 
-
-## Firewall Modifications 
