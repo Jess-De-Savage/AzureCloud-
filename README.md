@@ -29,5 +29,14 @@ Port modification request depicted below
 
 [![](https://i.imgur.com/e7uTkvNm.jpg)](https://i.imgur.com/e7uTkvN.png)
 
+# Topology Description 
+
+|Name |Function |IP Address |OS |
+| ---- | ---- | ---- | ---- |
+| Jumpbox | Gateway | 13.82.169.177 | Ubuntu 18.04 |
+| Web Server | DVWA  | 10.0.0.5 | Ubuntu 18.04 |
+| Elk Server | ELK Stack | 10.1.0.4 | Ubuntu 18.04 |
+
+
 ##### Access Policies
 
