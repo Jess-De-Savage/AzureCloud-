@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-25T06:23:19.825Z" agent="5.0 (Windows)" etag="iSAORM_ZP6bj5gxk7ihn" version="13.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-25T06:40:48.604Z" agent="5.0 (Windows)" etag="WoyUPdllqAY7x_blcHgZ" version="13.8.2" type="github">
   <diagram id="IFJcPwQLLyg0izHuMqBx" name="Page-1">
     <mxGraphModel dx="1888" dy="1657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -22,9 +22,10 @@
         <mxCell id="Ctl70bj27LUqtrlwXPKH-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.76;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.542;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Ctl70bj27LUqtrlwXPKH-2" target="Ctl70bj27LUqtrlwXPKH-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="415" y="243" />
-              <mxPoint x="415" y="240" />
-              <mxPoint x="478" y="240" />
+              <mxPoint x="350" y="243" />
+              <mxPoint x="350" y="260" />
+              <mxPoint x="478" y="260" />
+              <mxPoint x="478" y="247" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -48,7 +49,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Ctl70bj27LUqtrlwXPKH-13" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.computer;opacity=70;" parent="1" vertex="1">
-          <mxGeometry x="80" y="450" width="50" height="45" as="geometry" />
+          <mxGeometry x="70" y="441" width="60" height="54" as="geometry" />
         </mxCell>
         <mxCell id="Ctl70bj27LUqtrlwXPKH-34" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Network_Security_Groups_Classic.svg;opacity=70;" parent="1" vertex="1">
           <mxGeometry x="250" y="270" width="37" height="50" as="geometry" />
@@ -71,7 +72,7 @@
           <mxGeometry x="80" y="216" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Ctl70bj27LUqtrlwXPKH-69" value="&lt;div&gt;&lt;b&gt;Linux Ubuntu 18.04&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Web Server &lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;10.0.0.5&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;opacity=30;" parent="1" vertex="1">
-          <mxGeometry x="325" y="260" width="120" height="50" as="geometry" />
+          <mxGeometry x="317.6" y="260" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Ctl70bj27LUqtrlwXPKH-71" value="&lt;b&gt;47.x.x.x&lt;/b&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;opacity=30;" parent="1" vertex="1">
           <mxGeometry x="25" y="455" width="60" height="20" as="geometry" />
@@ -104,19 +105,16 @@
           <mxGeometry x="236" y="206" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="6koRdsUhrrRz70gMAvS8-1" value="&lt;b&gt;Port:5601&lt;/b&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="375" y="225" width="70" height="20" as="geometry" />
+          <mxGeometry x="375" y="215" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Ctl70bj27LUqtrlwXPKH-9" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Docker.svg;opacity=70;" parent="1" vertex="1">
-          <mxGeometry x="330" y="180" width="50" height="41" as="geometry" />
+          <mxGeometry x="317.6" y="180" width="50" height="41" as="geometry" />
         </mxCell>
         <mxCell id="6koRdsUhrrRz70gMAvS8-4" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=#001DBC;fillColor=#0050ef;shape=mxgraph.azure.virtual_network;pointerEvents=1;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="100" y="310" width="35" height="17.5" as="geometry" />
         </mxCell>
         <mxCell id="6koRdsUhrrRz70gMAvS8-5" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;b&gt;DVWA&lt;/b&gt;&lt;/span&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="325" y="240" width="50" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="6koRdsUhrrRz70gMAvS8-6" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;b&gt;ELK Stack&lt;br&gt;&lt;/b&gt;&lt;/span&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="420" y="196" width="70" height="20" as="geometry" />
+          <mxGeometry x="325" y="170" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="6koRdsUhrrRz70gMAvS8-9" value="&lt;div&gt;&lt;b&gt;Red &lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Virtual Network&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;10.0.0.0/16&lt;/b&gt;&lt;/div&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;opacity=30;" parent="1" vertex="1">
           <mxGeometry x="96" y="310" width="100" height="50" as="geometry" />
@@ -142,9 +140,9 @@
         <mxCell id="Ctl70bj27LUqtrlwXPKH-10" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Docker.svg;opacity=70;" parent="1" vertex="1">
           <mxGeometry x="478.05" y="180" width="43.9" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="S0Pxd6CawiEf929F-zsW-12" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;exitX=0.155;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Ctl70bj27LUqtrlwXPKH-13">
+        <mxCell id="S0Pxd6CawiEf929F-zsW-12" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="100" y="560" as="sourcePoint" />
+            <mxPoint x="90" y="495" as="sourcePoint" />
             <mxPoint x="470" y="320" as="targetPoint" />
             <Array as="points">
               <mxPoint x="90" y="495" />
@@ -169,7 +167,7 @@
             <mxPoint x="110" y="501" as="sourcePoint" />
             <mxPoint x="340" y="440" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="110" y="540" />
+              <mxPoint x="106" y="540" />
               <mxPoint x="340" y="540" />
             </Array>
           </mxGeometry>
@@ -204,6 +202,12 @@
               <mxPoint x="276" y="241" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="6koRdsUhrrRz70gMAvS8-6" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;b&gt;ELK Stack&lt;br&gt;&lt;/b&gt;&lt;/span&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="490" y="170" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="S0Pxd6CawiEf929F-zsW-35" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/social-media-logos-flat-colorful/2048/5314_-_Windows-128.png;fillColor=#007FFF;" vertex="1" parent="1">
+          <mxGeometry x="76.25" y="440" width="45" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
