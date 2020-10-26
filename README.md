@@ -28,7 +28,7 @@ inside a private network while being monitored by an ELK server.
 
 [DVWA](https://hub.docker.com/r/vulnerables/web-dvwa)
 
-[ELK/sebp](https://hub.docker.com/r/sebp/elk/)
+[sebp/ELK](https://hub.docker.com/r/sebp/elk/)
 
 [Filebeat](https://www.elastic.co/downloads/beats/filebeat)
 
