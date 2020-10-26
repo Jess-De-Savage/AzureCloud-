@@ -1,4 +1,4 @@
-# ELK Deployment-
+# ELK Server Deployment-
 ## Using Azure
 This repository documents the deployment of an ELK stack server generated on an Azure Cloud enviroment to launch a logged and monitored instance of the DVWA. 
 
