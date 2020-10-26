@@ -6,16 +6,16 @@ Below is a an image representation of the network created.
 
 ![](https://i.imgur.com/es466SV.png)
 
-The intention of the project is to deploy a lab environment to test vulnerabilities of a containerized instance of the "damn vulnerable web app" on a web server. A jumpbox server is used as a gateway to the network through an SSH tunnel to host. Use of a load balancer provides public internet access for the web server. This provides increased isolation of the network, increased availibility (especially if scaled) and monitoring the health of backend server. Filebeat installed on Web server pushes logs to Elk server. ELK server aggregate logs, indexes/analyzes and visualizes data to offer insights on changes in performance and fidelity of logs. 
+The intention of the project is to deploy a lab environment to test vulnerabilities in a containerized instance of the **damn vulnerable web application** with docker on a web server. A jumpbox server is utilized as a gateway to the network by host through SSH tunneling. The use of a load balancer provides a public IP for the web server. The benefits are increased privacy of the network, increased availibility and health monitoring of backend pool. Filebeat pushes web server logs to the Elk machine. Logstash aggregates logs, Elasticsearch indexes and analyzes and Kibana visualizes data to offer insights on changes in performance and fidelity of logs. 
 
 ## Description  
 This network is designed give a load balanced web server exposure to the DVWA, 
-inside a private network while being monitored by an ELK server. 
+inside a private network while being monitored by an ELK server.
  
 * The jump box protects private network from public access
 * The load balancer offers an efficient distribution of traffic, public IP, DoS protection
 * The ELK server logs and monitors the virtual machine for any changes 
-* Web server logs are pushed to ELK server, analyzed and indexed by elasticsearch then visualized by kibana
+* Web server logs are shipped to ELK server, analyzed and indexed by elasticsearch then visualized with kibana 
 
 
 ## Firewall Modifications 
@@ -25,12 +25,12 @@ inside a private network while being monitored by an ELK server.
 
 
 ## Documentation
-[filebeat.yml]()
 
-[DVWA]()
+[DVWA](https://hub.docker.com/r/vulnerables/web-dvwa)
 
-[ELK/sebp]()
+[ELK/sebp](https://hub.docker.com/r/sebp/elk/)
 
+[Filebeat](https://www.elastic.co/downloads/beats/filebeat)
 
 
 # Topology Description 
