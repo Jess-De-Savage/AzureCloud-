@@ -4,7 +4,7 @@ This repository documents the deployment of an ELK stack server deployed on an A
 
 Pictured below is a an image representation of the network created. 
 
-![](https://i.imgur.com/es466SV.png)
+![](https://i.imgur.com/es466SV.png)  
 In this project, a virtual lab environment was deployed to test for vulnerabilities in a containerized instance using docker of the **damn vulnerable web application** on a web server. A jumpbox server was utilized as a gateway to the network by the host machine by an SSH tunnel. The use of a load balancer provided a public IP for the web server. The benefits included are better network privacy, increased network resource availibility as well as steady health monitoring of the backend pool. Filebeat wass implemented to push web server logs to the Elk machine. Logstash aggregates logs, Elasticsearch indexes and analyzes and Kibana visualizes data to offer insights on changes in performance and the fidelity of logs. 
 
 ## Description  
