@@ -1,12 +1,11 @@
 # ELK Server Deployment-
 ## Using Azure
-This repository documents the deployment of an ELK stack server generated on an Azure Cloud enviroment to launch a logged and monitored instance of the DVWA. 
+This repository documents the deployment of an ELK stack server deployed on an Azure Cloud enviroment to launch a logged and monitored instance of the DVWA. 
 
-Below is a an image representation of the network created. 
+Pictured below is a an image representation of the network created. 
 
 ![](https://i.imgur.com/es466SV.png)
-
-The intention of the project is to deploy a lab environment to test vulnerabilities in a containerized instance of the **damn vulnerable web application** with docker on a web server. A jumpbox server is utilized as a gateway to the network by host through SSH tunneling. The use of a load balancer provides a public IP for the web server. The benefits are increased privacy of the network, increased availibility and health monitoring of backend pool. Filebeat pushes web server logs to the Elk machine. Logstash aggregates logs, Elasticsearch indexes and analyzes and Kibana visualizes data to offer insights on changes in performance and fidelity of logs. 
+In this project, a virtual lab environment was deployed to test for vulnerabilities in a containerized instance using docker of the **damn vulnerable web application** on a web server. A jumpbox server was utilized as a gateway to the network by the host machine by an SSH tunnel. The use of a load balancer provided a public IP for the web server. The benefits included are better network privacy, increased network resource availibility as well as steady health monitoring of the backend pool. Filebeat wass implemented to push web server logs to the Elk machine. Logstash aggregates logs, Elasticsearch indexes and analyzes and Kibana visualizes data to offer insights on changes in performance and the fidelity of logs. 
 
 ## Description  
 This network is designed give a load balanced web server exposure to the DVWA, 
@@ -43,4 +42,6 @@ inside a private network while being monitored by an ELK server.
 
 
 ##### Access Policies
-
+A jumpbox server and DVWA web server were both located in the same subnet  
+Jmpbox server was allowed access to web server via SSH protcol  
+The ELK stack server database server was housed on it's own subnet 
