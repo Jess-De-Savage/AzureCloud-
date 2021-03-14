@@ -38,11 +38,11 @@ inside a private network while being monitored by an ELK server.
 
 # Topology Description 
 The jumpbox server and DVWA web server were both located in the same subnet  
-The ELK stack server database server was segreated to a solitary subnet 
-The web server connected to ELK server on port 22 and 5601
-Jumpbox was positioned as a gateway to connect to host machine 
-Load balancer assigned as an edge device
-Layer 4 stateless firewalls placed in both subnets w/in virtual network
+The ELK stack server database server was segreated to a solitary subnet  
+The web server connected to ELK server on port 22 and 5601  
+Jumpbox was positioned as a gateway to connect to host machine  
+Load balancer assigned as an edge device  
+Layer 4 stateless firewalls placed in both subnets w/in virtual network  
 
 |Name |Function |IP Address |OS |
 | ---- | ---- | ---- | ---- |
@@ -52,7 +52,7 @@ Layer 4 stateless firewalls placed in both subnets w/in virtual network
 
 
 ##### Access Policies
-Host IP was listed as a trusted IP to allow connection to jumpbox machine via SSH protocol 
-Jmpbox server was listed as trusted IP to  to web server (hosting DVWA) via SSH protcol  
+Host IP was listed as a trusted IP to allow connection to jumpbox machine via SSH protocol  
+Jumpbox server was listed as trusted IP to  to web server (hosting DVWA) via SSH protcol  
 Web server had connectivity to internet via jumpbox server 
 
