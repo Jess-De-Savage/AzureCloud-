@@ -38,7 +38,7 @@ inside a private network while being monitored by an ELK server.
 
 # Topology Description 
 The jumpbox server and DVWA web server were both located in the same subnet  
-The ELK stack server database server was segreated to a segregated subnet  
+The ELK stack server database server was segreated to a seperate subnet  
 The web server connected to ELK server on port 22 and 5601  
 Jumpbox was positioned as a gateway to connect to host machine  
 Load balancer assigned as an edge device  
